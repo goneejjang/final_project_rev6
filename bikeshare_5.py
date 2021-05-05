@@ -188,11 +188,11 @@ def data(df):
     while True:
         answer = input("\nDo you want to see the raw data? Yes or No\n").lower()
         if answer not in ['yes', 'no']:
-            answer = input("\nYou wrote the wrong word. Please type Yes or No.\n").lower()
+            answer = input("\nYou wrote the wrong answer. Please type Yes or No.\n").lower()
         elif answer == 'yes':
             raw_data += 5
             print(df.iloc[raw_data : raw_data + 5])
-            again = input("\nDo you want to see more? Yes or No\n").lower()
+            again = input("\nDo you want to see more data? Yes or No\n").lower()
             if again == 'no':
                 break
         elif answer == 'no':
@@ -213,7 +213,7 @@ def main():
         user_stats(df)
         data(df)
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
+        restart = input('\nWould you like to try again? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
 
