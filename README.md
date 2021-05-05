@@ -10,6 +10,7 @@ Github and Data Science with Python project
 ### Description
 Updating readme.md file to see result
 Understand github command and commit message
+Good commit message start with base form of verb with capital letter
 
 ### Files used
 readme.md file
