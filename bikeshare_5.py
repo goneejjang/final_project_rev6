@@ -51,7 +51,7 @@ def get_filters(city, month, day):
     print(city)
     print(month)
     print(day)
-    print('-'*40)
+    print('-'*80)
     return city, month, day
 
 def load_data(city, month, day):
@@ -105,7 +105,7 @@ def time_stats(df):
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*80)
 
 
 
@@ -129,7 +129,7 @@ def station_stats(df):
     print(common_combination)
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*80)
 
 
 def trip_duration_stats(df):
@@ -147,7 +147,7 @@ def trip_duration_stats(df):
     print(mean_travel)
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*80)
 
 
 def user_stats(df):
@@ -180,7 +180,7 @@ def user_stats(df):
         print("There is no birth year information in this city.")
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*80)
 
 """Asking 5 lines of the raw data and more, if they want"""
 def data(df):
