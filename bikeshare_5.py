@@ -221,5 +221,6 @@ def main():
 if __name__ == "__main__":
 	main()
 
-
+if __name__ == "__main__":
+	main()
 ## update bikeshare_5.py in refactoring branch to see result.
