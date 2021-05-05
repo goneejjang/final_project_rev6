@@ -9,6 +9,7 @@ Github and Data Science with Python project
 
 ### Description
 Updating readme.md file to see result
+Understand github command and commit message
 
 ### Files used
 readme.md file
