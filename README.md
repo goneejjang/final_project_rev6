@@ -1,17 +1,17 @@
 >**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
 
-### Date created
-Include the date you created this project and README file.
+#### Date created
+05/02/2021 in 5 times tries
+05/04/2021 created again in final_project_rev6 folder
 
 ### Project Title
-Replace the Project Title
+Github and Data Science with Python project
 
 ### Description
-Describe what your project is about and what it does
+Updating readme.md file to see result
 
 ### Files used
-Include the files used
+readme.md file
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+goneejjang
